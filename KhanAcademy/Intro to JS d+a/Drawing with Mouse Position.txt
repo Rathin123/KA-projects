@@ -1,0 +1,10 @@
+fill(255, 0, 255);
+
+draw = function() {
+    background(255, 255, 255);
+    ellipse(mouseX, mouseY, 12, 12); 
+    
+    var currentPos = mouseX + "," + mouseY;
+    
+    text(currentPos,mouseX+5,mouseY+15);
+};
