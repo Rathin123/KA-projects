@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Travel webpage</title>
+        <style>
+            body{
+                background-color:rgb(17, 160, 212);
+            }
+            .list{
+                background-color:rgb(19, 158, 63);
+            }
+        </style>
+    </head>
+    <body>
+    
+        <h1>Travel to Bullhead City!</h1>
+        
+        <img src = "https://upload.wikimedia.org/wikipedia/commons/b/ba/Bullhead_City_Arizona_4.jpg" width="400">
+        
+        <p>Bullhead City is an exotic, warm destination in Arizona that offers affordable summer fun. Whether it be cool times by the water in the summer or a warm escape in the winter, Bullhead City has it all. </p>
+        <h2>Top Attractions</h2>
+        <ul class="list">
+            <li>A giant turtle</li>
+            <li>Fun in little Las Vegas, Laughlin</li>
+            <li>Old People!</li>
+            
+        </ul>
+        
+        <h2>Laughlin, Nevada</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Riverside_Resort_Laughlin.jpg" width = "400">
+        <p>Bullhead City is right next to Laughlin, Nevada. The two cities (and states) are separated by the Colorado River. Laughlin is an excellent tourist destination, as it offers a more affordable, bite-sized version of Las Vegas. Laughlin has excellent casinos, beaches, and even offers its own mall! </p>
+        
+        <h2>The Colorado River - Top Activities</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Colorado_River_at_Bullhead_City_2.jpg" width="400">
+        <ol class="list">
+            <li>Swimming</li>
+            <li>Jet Skiing</li>
+            <li>Tanning</li>
+        </ol>
+        
+    </body>
+</html>
