@@ -91,51 +91,7 @@
 </p>
         
     <p><em>Source: <a href="https://www.pressurecookingtoday.com/pressure-cooker-blueberry-compote/">Pressure Cooker Today</a></em></p>
-    
-    
-            <h2 id="lean">Lean</h2>
-        
-        <ul>
-            <li>Time: 5 min</li>
-            <li>Serves: 10</li>
-        </ul>
-        
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>Ingredients</th>
-                    <th>Quantity</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Sprite</td>
-                    <td>2 liters</td>
-                </tr>
-                <tr>
-                    <td>Cough Syrup</td>
-                    <td>1 Bottle</td>
-                </tr>
-                <tr>
-                    <td>Jolly Ranchers</td>
-                    <td>To taste. Add as needed </td>
-                </tr>
-            </tbody>
-        </table>
-        
-        <p><strong>Step 1:</strong> Add all ingredients to the bowl.
-        <br>
-        <strong>Step 2:</strong> Mix well.
-        <br>
-        <strong>Step 3:</strong> Taste if extra Jolly Ranchers are needed.
-        <br>
-        <br>
-        Enjoy! Jk don't do this drugs are bad
-</p>
-        
-    <p><em>Source: <a href="https://www.urbandictionary.com/define.php?term=Lean">Urban Dictionary</a></em></p>
-    
-        
+
         <h2 id="quesadilla">(Almost) Vegan Quesadillas</h2>
         
         <ul>
