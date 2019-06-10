@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+            body{
+                background-color:rgb(191, 235, 167);
+            }
+            
+            p{
+                background-color:rgb(230, 147, 115);
+                color:white;
+            }
+            .table{
+                background-color:rgb(113, 183, 230);
+                color:white;
+            }
+            #compote{
+                background-color:lightblue;
+                color:white;
+            }
+            #lean{
+                background-color:orchid;
+                color:white;
+            }
+            #quesadilla{
+                background-color:lightyellow;
+                color:back;
+                
+            }
+        </style>
+    </head>
+    <body>
+       
+        <h1 style="color:PapayaWhip">Rathin's Recipe Book</h1>
+        
+        <h2>Contents:</h2>
+        
+        <ol>
+            <li><a href="#compote">Blueberry Compote</a></li>
+            <li><a href="#lean">Lean</a></li>
+            
+            <li><a href="#quesadilla">(Almost) Vegan Quesadillas</a></li>
+        </ol>
+        
+        <h2 id="compote">Blueberry Compote</h2>
+        
+        <ul>
+            <li>Time: 30-45 min</li>
+            <li>Serves: 4</li>
+        </ul>
+        
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Frozen Blueberries</td>
+                    <td>1 bag</td>
+                </tr>
+                <tr>
+                    <td>Sugar</td>
+                    <td>2.5 cups</td>
+                </tr>
+                <tr>
+                    <td>Corn Starch</td>
+                    <td>6 tablespoons
+                </tr>
+                <tr>
+                    <td>Water</td>
+                    <td>6 tablespoons</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong> Add all ingredients to the instant pot.
+        <br>
+        <strong>Step 2:</strong> Mix well.
+        <br>
+        <strong>Step 3:</strong> Set the instant pot on high pressure for 10 minutes. Cook.
+        <br>
+        <strong>Step 4:</strong> Natural release for 10 minutes. Release any remaning pressue with a quick release.
+        <br>
+        <br>
+        Serve with oatmeal, dessert, or any other dishes that come to mind!
+</p>
+        
+    <p><em>Source: <a href="https://www.pressurecookingtoday.com/pressure-cooker-blueberry-compote/">Pressure Cooker Today</a></em></p>
+
+        <h2 id="quesadilla">(Almost) Vegan Quesadillas</h2>
+        
+        <ul>
+            <li>Time: 45-1hr min</li>
+            <li>Serves: 4</li>
+        </ul>
+        
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>10" tortillas</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Soy Cheese</td>
+                    <td>3 cups</td>
+                </tr>
+                <tr>
+                    <td>Roma Tomatoes, finely diced</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Serrano Peppers, finely diced</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Cilantro</td>
+                    <td>1/4 cup</td>
+                </tr>
+                <tr>
+                    <td>Taco Seasoning</td>
+                    <td>2 tbsp</td>
+                </tr>
+                
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong> Add all diced vegetables to one bowl.
+        <br>
+        <strong>Step 2:</strong> Heat skillet. Place tortilla on skillet once warm.
+        <br>
+        <strong>Step 3:</strong> Liberally apply cheese and vegetable mixture to tortilla. Sprinkle taco seasoning on tortilla.
+        <br>
+        <strong>Step 4:</strong> Fold over tortilla.
+        <br>
+        <strong>Step 5:</strong> Let cook until both sides are browned. Flip as needed, and check the cheeese for melty consistency.
+        <br>
+        <br>
+        Repeat for other tortillas. Serve with chips and salsa.
+</p>
+        
+    <p><em>Source: <a href="https://www.pressurecookingtoday.com/pressure-cooker-blueberry-compote/">Me!</a></em></p>
+    
+    </body>
+    
+</html>

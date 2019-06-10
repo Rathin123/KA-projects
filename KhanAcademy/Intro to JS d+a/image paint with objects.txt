@@ -1,0 +1,18 @@
+var paintBrush = {
+    x: 215,
+    y: 120,
+    img: getImage("cute/TreeUgly")
+};
+
+var paintCanvas = function() {
+    imageMode(CENTER);
+    image(paintBrush.img, paintBrush.x, paintBrush.y);
+};
+
+mouseMoved = function() {
+    paintBrush.x = mouseX;
+    paintBrush.y = mouseY;
+    paintCanvas();
+};
+
+paintCanvas();

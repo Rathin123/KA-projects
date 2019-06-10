@@ -1,0 +1,7 @@
+var myFavoriteFruits = ["banana","apple","dragonfruit"];
+
+fill(255, 0, 0);
+text("My top" + myFavoriteFruits.length + "favorite fruits!",10,10);
+text(myFavoriteFruits[0],10,20);
+text(myFavoriteFruits[1],10,30);
+text(myFavoriteFruits[2],10,40);
