@@ -1,0 +1,28 @@
+CREATE TABLE famous_people(id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT);
+
+INSERT INTO famous_people (name) VALUES ("Justin Timberlake");
+INSERT INTO famous_people (name) VALUES ("Jessica Biel");
+INSERT INTO famous_people (name) VALUES ("Ryan Reynolds");
+INSERT INTO famous_people (name) VALUES ("Blake Lively");
+INSERT INTO famous_people (name) VALUES ("Asthon Kutcher");
+INSERT INTO famous_people (name) VALUES ("Mila Kunis");
+INSERT INTO famous_people (name) VALUES ("Joe Manganiello");
+INSERT INTO famous_people (name) VALUES ("Sophia Vegara");
+INSERT INTO famous_people (name) VALUES ("David Beckham");
+INSERT INTO famous_people (name) VALUES ("Victoria Beckham");
+
+SELECT * FROM famous_people;
+
+CREATE TABLE famous_people_marriages(person1_id INTEGER, person2_id INTEGER);
+INSERT INTO famous_people_marriages VALUES (1,2);
+INSERT INTO famous_people_marriages VALUES (2,1);
+INSERT INTO famous_people_marriages VALUES (3,4);
+INSERT INTO famous_people_marriages VALUES (4,3);
+INSERT INTO famous_people_marriages VALUES (5,6);
+INSERT INTO famous_people_marriages VALUES (6,5);
+INSERT INTO famous_people_marriages VALUES (7,8);
+INSERT INTO famous_people_marriages VALUES (8,7);
+INSERT INTO famous_people_marriages VALUES (9,10);
+INSERT INTO famous_people_marriages VALUES (10,9);
+
+SELECT a.name, b.name FROM famous_people_marriages JOIN famous_people a ON famous_people_marriages.person1_id = a.id JOIN famous_people b ON famous_people_marriages.person2_id = b.id;

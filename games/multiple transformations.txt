@@ -1,0 +1,34 @@
+var diameter = 600;
+var decreaseAmt = 0.02;
+var scaleF = 1.0;
+
+var drawWhiteCircle = function(diameter) {
+    fill(255, 255, 255);
+    ellipse(0,0,diameter,diameter);
+};
+
+var drawBlackCircle = function(diameter) {
+    fill(0,0,0);
+    ellipse(0,0,diameter,diameter);
+};
+
+
+background(255, 255, 255);
+decreaseAmt = 0.05;
+
+var scaleF = 1.0;
+while(scaleF > 0){
+    pushMatrix();
+    translate(200,200);
+    scale(scaleF);
+    drawBlackCircle(diameter);
+    scaleF -= decreaseAmt;
+    popMatrix();
+    
+    pushMatrix();
+    translate(200,200);
+    scale(scaleF);
+    drawWhiteCircle(diameter);
+    scaleF -= decreaseAmt;
+    popMatrix();
+}

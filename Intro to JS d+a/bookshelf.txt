@@ -1,0 +1,32 @@
+var book = [{
+    title: "The Giver",
+    stars: 4,
+    author: "Lois Lowry"
+},{
+    title: "The Help",
+    stars: 3,
+    author: "Kathryn Stockett"
+},{
+    title: "Man's Search for Meaning",
+    stars: 4,
+    author: "Victor Frankl"
+}];
+
+// draw shelf
+fill(173, 117, 33);
+rect(0, 120, width, 10);
+
+// draw one book
+
+for(var i = 0; i<book.length; i++){
+    fill(214, 255, 219);
+    rect(10+110*i, 20, 90, 100);
+    fill(0,0,0);
+    text(book[i].title, 15+110*i, 29, 70, 100);
+    text(book[i].author, 15+110*i, 72, 70, 100);
+    for (var j = 0; j < book[i].stars; j++) {
+        image(getImage("cute/Star"), 13+110*i + j * 20, 90, 20, 30);
+    }
+}
+
+

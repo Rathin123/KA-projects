@@ -1,0 +1,18 @@
+noStroke();
+background(0, 0, 0);
+var r = 255;
+var g = 90;
+var b = 0;
+fill(r, g, b);
+
+for(var i = 0; i < 360; i += 30){
+    pushMatrix();
+    translate(200,200);
+    rotate(i);
+    fill(r, g, b);
+    r -= 10;
+    g += 5;
+    b += 10;
+    rect(0, 0, 150, 15);
+    popMatrix();
+}
